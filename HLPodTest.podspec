@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "HLPodTest"
-s.version      = "0.0.1"
+s.version      = "0.0.3"
 s.summary      = "Display your app's FPS on screen"
 s.homepage     = "https://github.com/leohou/HLPodTest"
 s.license      = "MIT"
