@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930971D51EF7B5D600CCB4AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930971D41EF7B5D600CCB4AE /* main.m */; };
+		930971D81EF7B5D600CCB4AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930971D71EF7B5D600CCB4AE /* AppDelegate.m */; };
+		930971DB1EF7B5D600CCB4AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930971DA1EF7B5D600CCB4AE /* ViewController.m */; };
+		930971DE1EF7B5D600CCB4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930971DC1EF7B5D600CCB4AE /* Main.storyboard */; };
+		930971E01EF7B5D600CCB4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930971DF1EF7B5D600CCB4AE /* Assets.xcassets */; };
+		930971E31EF7B5D600CCB4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930971E11EF7B5D600CCB4AE /* LaunchScreen.storyboard */; };
+		930971EE1EF7B5D600CCB4AE /* HLPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930971ED1EF7B5D600CCB4AE /* HLPodTestTests.m */; };
+		930971F91EF7B5D600CCB4AE /* HLPodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930971F81EF7B5D600CCB4AE /* HLPodTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930971EA1EF7B5D600CCB4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930971C81EF7B5D600CCB4AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930971CF1EF7B5D600CCB4AE;
+			remoteInfo = HLPodTest;
+		};
+		930971F51EF7B5D600CCB4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930971C81EF7B5D600CCB4AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930971CF1EF7B5D600CCB4AE;
+			remoteInfo = HLPodTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930971D01EF7B5D600CCB4AE /* HLPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLPodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930971D41EF7B5D600CCB4AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930971D61EF7B5D600CCB4AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		930971D71EF7B5D600CCB4AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		930971D91EF7B5D600CCB4AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		930971DA1EF7B5D600CCB4AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		930971DD1EF7B5D600CCB4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		930971DF1EF7B5D600CCB4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		930971E21EF7B5D600CCB4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		930971E41EF7B5D600CCB4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930971E91EF7B5D600CCB4AE /* HLPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930971ED1EF7B5D600CCB4AE /* HLPodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPodTestTests.m; sourceTree = "<group>"; };
+		930971EF1EF7B5D600CCB4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930971F41EF7B5D600CCB4AE /* HLPodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930971F81EF7B5D600CCB4AE /* HLPodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPodTestUITests.m; sourceTree = "<group>"; };
+		930971FA1EF7B5D600CCB4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930971CD1EF7B5D600CCB4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971E61EF7B5D600CCB4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971F11EF7B5D600CCB4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930971C71EF7B5D600CCB4AE = {
+			isa = PBXGroup;
+			children = (
+				930971D21EF7B5D600CCB4AE /* HLPodTest */,
+				930971EC1EF7B5D600CCB4AE /* HLPodTestTests */,
+				930971F71EF7B5D600CCB4AE /* HLPodTestUITests */,
+				930971D11EF7B5D600CCB4AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930971D11EF7B5D600CCB4AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930971D01EF7B5D600CCB4AE /* HLPodTest.app */,
+				930971E91EF7B5D600CCB4AE /* HLPodTestTests.xctest */,
+				930971F41EF7B5D600CCB4AE /* HLPodTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930971D21EF7B5D600CCB4AE /* HLPodTest */ = {
+			isa = PBXGroup;
+			children = (
+				930971D61EF7B5D600CCB4AE /* AppDelegate.h */,
+				930971D71EF7B5D600CCB4AE /* AppDelegate.m */,
+				930971D91EF7B5D600CCB4AE /* ViewController.h */,
+				930971DA1EF7B5D600CCB4AE /* ViewController.m */,
+				930971DC1EF7B5D600CCB4AE /* Main.storyboard */,
+				930971DF1EF7B5D600CCB4AE /* Assets.xcassets */,
+				930971E11EF7B5D600CCB4AE /* LaunchScreen.storyboard */,
+				930971E41EF7B5D600CCB4AE /* Info.plist */,
+				930971D31EF7B5D600CCB4AE /* Supporting Files */,
+			);
+			path = HLPodTest;
+			sourceTree = "<group>";
+		};
+		930971D31EF7B5D600CCB4AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930971D41EF7B5D600CCB4AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930971EC1EF7B5D600CCB4AE /* HLPodTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				930971ED1EF7B5D600CCB4AE /* HLPodTestTests.m */,
+				930971EF1EF7B5D600CCB4AE /* Info.plist */,
+			);
+			path = HLPodTestTests;
+			sourceTree = "<group>";
+		};
+		930971F71EF7B5D600CCB4AE /* HLPodTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				930971F81EF7B5D600CCB4AE /* HLPodTestUITests.m */,
+				930971FA1EF7B5D600CCB4AE /* Info.plist */,
+			);
+			path = HLPodTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930971CF1EF7B5D600CCB4AE /* HLPodTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930971FD1EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTest" */;
+			buildPhases = (
+				930971CC1EF7B5D600CCB4AE /* Sources */,
+				930971CD1EF7B5D600CCB4AE /* Frameworks */,
+				930971CE1EF7B5D600CCB4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLPodTest;
+			productName = HLPodTest;
+			productReference = 930971D01EF7B5D600CCB4AE /* HLPodTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930971E81EF7B5D600CCB4AE /* HLPodTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930972001EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTestTests" */;
+			buildPhases = (
+				930971E51EF7B5D600CCB4AE /* Sources */,
+				930971E61EF7B5D600CCB4AE /* Frameworks */,
+				930971E71EF7B5D600CCB4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930971EB1EF7B5D600CCB4AE /* PBXTargetDependency */,
+			);
+			name = HLPodTestTests;
+			productName = HLPodTestTests;
+			productReference = 930971E91EF7B5D600CCB4AE /* HLPodTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		930971F31EF7B5D600CCB4AE /* HLPodTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930972031EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTestUITests" */;
+			buildPhases = (
+				930971F01EF7B5D600CCB4AE /* Sources */,
+				930971F11EF7B5D600CCB4AE /* Frameworks */,
+				930971F21EF7B5D600CCB4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930971F61EF7B5D600CCB4AE /* PBXTargetDependency */,
+			);
+			name = HLPodTestUITests;
+			productName = HLPodTestUITests;
+			productReference = 930971F41EF7B5D600CCB4AE /* HLPodTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930971C81EF7B5D600CCB4AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					930971CF1EF7B5D600CCB4AE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					930971E81EF7B5D600CCB4AE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 930971CF1EF7B5D600CCB4AE;
+					};
+					930971F31EF7B5D600CCB4AE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 930971CF1EF7B5D600CCB4AE;
+					};
+				};
+			};
+			buildConfigurationList = 930971CB1EF7B5D600CCB4AE /* Build configuration list for PBXProject "HLPodTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 930971C71EF7B5D600CCB4AE;
+			productRefGroup = 930971D11EF7B5D600CCB4AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930971CF1EF7B5D600CCB4AE /* HLPodTest */,
+				930971E81EF7B5D600CCB4AE /* HLPodTestTests */,
+				930971F31EF7B5D600CCB4AE /* HLPodTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930971CE1EF7B5D600CCB4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930971E31EF7B5D600CCB4AE /* LaunchScreen.storyboard in Resources */,
+				930971E01EF7B5D600CCB4AE /* Assets.xcassets in Resources */,
+				930971DE1EF7B5D600CCB4AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971E71EF7B5D600CCB4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971F21EF7B5D600CCB4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930971CC1EF7B5D600CCB4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930971DB1EF7B5D600CCB4AE /* ViewController.m in Sources */,
+				930971D81EF7B5D600CCB4AE /* AppDelegate.m in Sources */,
+				930971D51EF7B5D600CCB4AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971E51EF7B5D600CCB4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930971EE1EF7B5D600CCB4AE /* HLPodTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930971F01EF7B5D600CCB4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930971F91EF7B5D600CCB4AE /* HLPodTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930971EB1EF7B5D600CCB4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930971CF1EF7B5D600CCB4AE /* HLPodTest */;
+			targetProxy = 930971EA1EF7B5D600CCB4AE /* PBXContainerItemProxy */;
+		};
+		930971F61EF7B5D600CCB4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930971CF1EF7B5D600CCB4AE /* HLPodTest */;
+			targetProxy = 930971F51EF7B5D600CCB4AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		930971DC1EF7B5D600CCB4AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930971DD1EF7B5D600CCB4AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		930971E11EF7B5D600CCB4AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930971E21EF7B5D600CCB4AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930971FB1EF7B5D600CCB4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		930971FC1EF7B5D600CCB4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930971FE1EF7B5D600CCB4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		930971FF1EF7B5D600CCB4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLPodTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		930972011EF7B5D600CCB4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLPodTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLPodTest.app/HLPodTest";
+			};
+			name = Debug;
+		};
+		930972021EF7B5D600CCB4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLPodTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLPodTest.app/HLPodTest";
+			};
+			name = Release;
+		};
+		930972041EF7B5D600CCB4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLPodTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLPodTest;
+			};
+			name = Debug;
+		};
+		930972051EF7B5D600CCB4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HLPodTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HLPodTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLPodTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930971CB1EF7B5D600CCB4AE /* Build configuration list for PBXProject "HLPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930971FB1EF7B5D600CCB4AE /* Debug */,
+				930971FC1EF7B5D600CCB4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930971FD1EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930971FE1EF7B5D600CCB4AE /* Debug */,
+				930971FF1EF7B5D600CCB4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930972001EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930972011EF7B5D600CCB4AE /* Debug */,
+				930972021EF7B5D600CCB4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930972031EF7B5D600CCB4AE /* Build configuration list for PBXNativeTarget "HLPodTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930972041EF7B5D600CCB4AE /* Debug */,
+				930972051EF7B5D600CCB4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930971C81EF7B5D600CCB4AE /* Project object */;
+}
