@@ -9,7 +9,7 @@ s.author           = { 'leohou' => '18801024669@163.com' }
 s.platform     = :ios, "9.0"
 s.frameworks   = 'Foundation', 'UIKit'
 s.source       = { :git => https://github.com/leohou/HLPodTest.git", :tag => "0.0.1" }
-s.source_files = "HLPodTest/HLPod/**/*.{h,m}"
+s.source_files = "HLPodTest/**/*.{h,m}"
 s.requires_arc = true
 
 end
